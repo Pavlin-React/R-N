@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
+
 export default function todoItem ( { item, clickHandler } ) {
   return(
     <TouchableOpacity onPress={ () => clickHandler( item.key ) } >
