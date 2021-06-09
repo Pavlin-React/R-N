@@ -4,6 +4,7 @@ import { Alert, FlatList, StyleSheet, View } from 'react-native';
 import Header from './components/header'
 import TodoItem from './components/todoItem'
 import AddTodo from './components/addTodo'
+import Sandbox from './components/sandbox';
 
 export default function App() {
 
